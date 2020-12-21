@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-08T10:57:25 EDT" name="Default suite" finished-at="2020-09-08T10:57:25 EDT" duration-ms="125">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day2.Hello()[pri:0, instance:test.Day2@43c1b556]" name="Hello" class="test.Day2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2020-09-08T10:57:25 EDT" name="Default test" finished-at="2020-09-08T10:57:25 EDT" duration-ms="125">
+      <class name="test.Day2">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.Day2@43c1b556]" started-at="2020-09-08T10:57:25 EDT" name="beforeTest" finished-at="2020-09-08T10:57:25 EDT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="Bye(java.lang.String, java.lang.String)[pri:0, instance:test.Day2@43c1b556]" started-at="2020-09-08T10:57:25 EDT" name="Bye" data-provider="getData" finished-at="2020-09-08T10:57:25 EDT" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bye -->
+        <test-method signature="Bye(java.lang.String, java.lang.String)[pri:0, instance:test.Day2@43c1b556]" started-at="2020-09-08T10:57:25 EDT" name="Bye" data-provider="getData" finished-at="2020-09-08T10:57:25 EDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bye -->
+        <test-method signature="Bye(java.lang.String, java.lang.String)[pri:0, instance:test.Day2@43c1b556]" started-at="2020-09-08T10:57:25 EDT" name="Bye" data-provider="getData" finished-at="2020-09-08T10:57:25 EDT" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bye -->
+        <test-method signature="Hello()[pri:0, instance:test.Day2@43c1b556]" started-at="2020-09-08T10:57:25 EDT" name="Hello" finished-at="2020-09-08T10:57:25 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hello -->
+      </class> <!-- test.Day2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
