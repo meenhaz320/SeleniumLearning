@@ -28,10 +28,10 @@ public class LocatorConcept2 {
 	getElement(lastname).sendKeys("Wick");
 	*/
 	
-	doSendKeys(URL, "TestAutomation");
+	/*doSendKeys(URL, "TestAutomation");
 	doSendKeys(firstName, "John");
 	doSendKeys(lastname, "Wick");
-	clickElement(submit);
+	clickElement(submit);*/
 	
 	}
 	
@@ -49,4 +49,4 @@ public class LocatorConcept2 {
 		*/
 	}
 
-}
+
