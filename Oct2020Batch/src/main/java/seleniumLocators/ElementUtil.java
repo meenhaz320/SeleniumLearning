@@ -30,6 +30,14 @@ public boolean doIsDisplayed(By locator) {
 	return getElement(locator).isDisplayed();
 }
 
+public boolean checkElementPresent(By locator) {
+	
+	if(getElements(locator).size()>0) {
+		return true;
+	}
+	return false;
+}
+
 //use when you have alot of similar elements and want to print amount, names, and click on what you want 
 public void clickElement(By locator, String value) {
 	List <WebElement> eleUtil = getElements(locator);

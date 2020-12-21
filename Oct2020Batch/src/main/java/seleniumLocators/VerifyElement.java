@@ -24,7 +24,7 @@ public class VerifyElement {
 		
 		By forgotpassword = By.linkText("Forgot your password?");
 		
-		List <WebElement> eleList = driver.findElements(forgotpassword);
+		/*List <WebElement> eleList = driver.findElements(forgotpassword);
 		
 		eleList.size();
 		
@@ -32,7 +32,16 @@ public class VerifyElement {
 			System.out.println("The Element is here");
 		} else {	
 			System.out.println("The Element is not here");
-		}
+		}*/
 
 }
+public static boolean checkElementPresent(By locator) {
+	List <WebElement> eleList = driver.findElements(locator);
+	
+	if(eleList.size()>0) {
+		return true;
+	}
+	return false;
+}
+
 }
