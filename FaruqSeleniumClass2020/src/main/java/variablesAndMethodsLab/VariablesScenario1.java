@@ -13,7 +13,7 @@ public class VariablesScenario1 {
 	
 	int c = a +b; 
 	//datatype of c is int because it takes the bigger value
-	//yes
+	//yesno
 	
 	System.out.println(c);
 	
